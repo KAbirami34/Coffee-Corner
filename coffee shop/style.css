@@ -1,0 +1,143 @@
+/* Entire Webpage */
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F0;
+    color: #4E342E;
+}
+
+
+/* Header */
+
+header{
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size:20px;
+}
+
+
+/* Navigation Bar */
+
+nav{
+    background-color: #F5E6D3;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #6F4E37;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+/* Hero Section */
+
+.hero{
+    text-align: center;
+    padding: 30px;
+    font-size:24px;
+}
+
+.hero h2{
+    color: #6F4E37;
+}
+
+
+/* Image Styling */
+
+img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px gray;
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+
+/* About Section */
+
+.About{
+    padding: 20px;
+    text-align: center;
+}
+
+.About p{
+    font-size: 25px;
+}
+/* Menu Section */
+
+.Menu{
+    padding: 20px;
+    text-align: center;
+    font-size:25px;
+}
+
+.Menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.Menu li{
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+/* Button Section */
+
+.button-selection{
+    text-align: center;
+    margin: 30px;
+    font-size:20px;
+}
+
+button{
+    background-color: #8B5E3C;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5D4037;
+}
+
+
+/* Contact Section */
+
+.Contact{
+    text-align: center;
+    padding: 20px;
+    font-size:25px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
